@@ -60,5 +60,5 @@ A go version of hardseed(C++)
 TODO
 
 1. 处理caoliu的快速翻页问题
-2. 处理多线程报错问题
+2. 处理多线程报错问题: Unsolicited response received on idle HTTP channel starting with "\n"; err=<nil>
 3. 添加-1为全主题检索
