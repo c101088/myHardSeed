@@ -1,2 +1,2 @@
 # Auto detect text files and perform LF normalization
-*.go linguist-language=Scala
+*.go linguist-language=go
