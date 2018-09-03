@@ -186,18 +186,18 @@ func getParserTargetUrl(avClass string) (string,bool,error) {
 	case "caoliu_asia_non_mosaicked_original":
 		webpageSite = "thread0806.php?fid=2"
 		aichengFlag = false
-	case "caoliu_west_reposted":
+/*	case "caoliu_west_reposted":
 		webpageSite ="thread0806.php?fid=19"
-		aichengFlag = false
-	case "caoliu_cartoon_reposted":
+		aichengFlag = false*/
+/*	case "caoliu_cartoon_reposted":
 		webpageSite = "thread0806.php?fid=24"
-		aichengFlag = false
-	case "caoliu_asia_non_mosaicked_reposted":
+		aichengFlag = false*/
+/*	case "caoliu_asia_non_mosaicked_reposted":
 		webpageSite = "thread0806.php?fid=17"
-		aichengFlag = false
-	case "caoliu_asia_mosaicked_reposted":
+		aichengFlag = false*/
+/*	case "caoliu_asia_mosaicked_reposted":
 		webpageSite ="thread0806.php?fid=1"
-		aichengFlag = false
+		aichengFlag = false*/
 	case "caoliu_selfie":
 		webpageSite ="thread0806.php?fid=16"
 		aichengFlag = false

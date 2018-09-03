@@ -24,8 +24,8 @@ func ParserCmd(cmdInstance *CmdOrder)( error){
 	var strTopicHate string
 	flag.StringVar(&cmdInstance.SavePath,"save-path",sysClass(),"下载文件的保存路径 ")
 	flag.IntVar(&cmdInstance.CurrentTask,"current-task",16,"下载的并行任务数")
-	flag.StringVar(&cmdInstance.AvClass,"av-class","caoliu_asia_non_mosaicked_original","种子分区")
-	flag.StringVar(&strTopicRange,"topic-range","0 10","文件范围")
+	flag.StringVar(&cmdInstance.AvClass,"av-class","aicheng_asia_mosaicked","种子分区")
+	flag.StringVar(&strTopicRange,"topic-range","0 1024","文件范围")
 	flag.StringVar(&cmdInstance.ProxyString,"proxy","socks5://127.0.0.1:1080","代理端口，默认为ss")
 	flag.StringVar(&strTopicLike,"like","","钟爱的主题，如ABP？")
 	flag.IntVar(&cmdInstance.CoreNum,"core-number",runtime.NumCPU(),"The cpu core used for hardseed , more than 2 core would be welcome!")
